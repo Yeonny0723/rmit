@@ -47,8 +47,7 @@ export const setCount = async (newCount) => {
   try {
     // 사용할 account address 설정.
     // 근데 이게 문제야...이 코드는 누구나 확인할 수 있는데 Privatekey가 너무 대놓고 있잖아...
-    const privatekey =
-      "0xe61445e8f27c2ea2eaa88fddc14d44b09ea5bc9ba27e5360bba3adfc7b8d80d9";
+    const privatekey = "";
     const deployer = caver.wallet.keyring.createFromPrivateKey(privatekey);
     caver.wallet.add(deployer);
     // 실행 input 블록체인으로 날리기
