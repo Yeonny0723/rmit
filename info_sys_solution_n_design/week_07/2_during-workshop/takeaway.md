@@ -1,0 +1,3 @@
+- tkinter with Mac OS Moneterey has an issue displaying main menu bar from main_menu.py
+- You will need to upgrate Python v 3.10 in order to make it viewable
+- It can be done by creating virtual env with Python v 3.10 from mac terminal (as miniconda only allows Python 3.9 as the latest version [22/04/2022]) 
