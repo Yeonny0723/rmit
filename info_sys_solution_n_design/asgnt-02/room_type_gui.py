@@ -13,11 +13,11 @@ from validation import Validation
 
 
 # #################
-# Room_typerGUI Class
+# RoomTypeGUI Class
 # #################
 
 class RoomTypeGUI():
-    """Room_typeGUI class to implement CRUD functionalities & methods to manage the user interface"""
+    """RoomTypeGUI class to implement CRUD functionalities & methods to manage the user interface"""
 
     def __init__(self):   
         """Initialiser"""

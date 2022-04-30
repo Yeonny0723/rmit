@@ -319,7 +319,6 @@ class CustomerGUI():
             button_frame, 
             width=10, 
             text="Delete",
-            highlightbackground='#3E4149',
             command=self.confirm_delete).pack(side=tk.LEFT)
         tk.Button(
             button_frame, 

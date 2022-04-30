@@ -14,7 +14,7 @@ from tkinter import messagebox
 
 from customer_gui import CustomerGUI
 from staff_gui import StaffGUI
-from room_type_gui import Room_typeGUI
+from room_type_gui import RoomTypeGUI
 from room_gui import RoomGUI
 from booking_gui import BookingGUI
 
@@ -157,7 +157,7 @@ class MainGUI():
         if self.current_gui:
             self.current_gui.destroy()
 
-        room_type_gui = Room_typeGUI()
+        room_type_gui = RoomTypeGUI()
         self.current_gui = room_type_gui.create_gui(self.root)
         pass
 

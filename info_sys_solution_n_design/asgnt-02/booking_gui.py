@@ -8,6 +8,7 @@ from tkinter import messagebox
 import tkinter.ttk as ttk # for combobox
 from tkinter.messagebox import showinfo
 from tkinter.messagebox import askyesno
+from datetime import datetime
 
 from booking_dao import BookingDAO # To communicate with booking table
 from validation import Validation
@@ -430,8 +431,13 @@ class BookingGUI():
 
         room_id = self.room_id.get()
         extra_bed = self.extra_bed.get()
+
+        check_in = datetime.strptime(self.check_in.get(), "%d/%m/%Y") # transform date in python format
+        check_out = datetime.strptime(self.check_out.get(), "%d/%m/%Y")
+        stay = (check_out-check_in).days
+
         room_price = self.booking_dao.get_room_price(room_id)[1]
-        total_price = room_price + extra_bed * 80
+        total_price = (room_price + extra_bed * 80) * stay
         self.total_price.set(total_price)
 
     def confirm_delete(self):
