@@ -13,7 +13,8 @@ import re # regular expression
 # ################
 
 class Validation():
-
+    """Validation class to implement multiple validation rules to user input data"""
+    
     def is_numeric(self, val):
         """
         Check if input is numeric

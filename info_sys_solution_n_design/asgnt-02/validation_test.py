@@ -5,6 +5,13 @@ from validation import Validation
 
 
 def test_is_numeric(validation):
+    """
+    A function to test if input contains only number
+
+    Parameters: Data to validate. 
+
+    Return: None
+    """ 
     print("\n1.Testing is_numeric()") 
     
     # True
@@ -17,6 +24,13 @@ def test_is_numeric(validation):
 
 
 def test_is_alphabetic(validation):
+    """
+    A function to test if input contains only alphabet
+
+    Parameters: Data to validate. 
+
+    Return: None
+    """ 
     print("\n2. Testing is_alphabetic()")
 
     # True
@@ -29,6 +43,13 @@ def test_is_alphabetic(validation):
 
 
 def test_is_phone_number(validation):
+    """
+    A function to test if input follows phone number format of 0000-000-000 or 0000 000 000
+
+    Parameters: Data to validate. 
+
+    Return: None
+    """ 
     print("\n4. Testing is_phone_number()")
 
     # True
@@ -43,6 +64,13 @@ def test_is_phone_number(validation):
 
 
 def test_is_email(validation):
+    """
+    A function to test if input follows typical email format
+
+    Parameters: Data to validate. 
+
+    Return: None
+    """ 
     print("\n5. Testing is_email()")
 
     # True
@@ -56,6 +84,13 @@ def test_is_email(validation):
     
 
 def test_is_date(validation):
+    """
+    A function to test if input follows phone number format of dd/mm/yyyy
+
+    Parameters: Data to validate. 
+
+    Return: None
+    """ 
     print("\n6. Testing is_date()")
 
      # True
@@ -68,6 +103,13 @@ def test_is_date(validation):
     
 
 def test_is_expiry_date(validation):
+    """
+    A function to test if input follows phone number format of mm/yy
+
+    Parameters: Data to validate. 
+
+    Return: None
+    """ 
     print("\n7. Testing is_expiry_date()")
 
      # True
@@ -80,6 +122,13 @@ def test_is_expiry_date(validation):
     
 
 def test_is_credit_num(validation):
+    """
+    A function to test if input follows phone number format of 0000-0000-0000-0000 or 0000 0000 0000 0000
+
+    Parameters: Data to validate. 
+
+    Return: None
+    """ 
     print("\n8. Testing is_credit_num()")
 
      # True

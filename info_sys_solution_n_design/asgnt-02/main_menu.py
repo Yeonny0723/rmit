@@ -30,7 +30,7 @@ from booking_gui import BookingGUI
 class MainGUI():
 
     def __init__(self):   
-
+        """Initialiser"""
         print("Creating Main GUI ...")
 
         self.current_gui = None # Reference to current GUI 
@@ -120,7 +120,11 @@ class MainGUI():
 
 
     def create_customer_gui(self):
-
+        """
+        Create the main menu linking to create customer gui.
+        The first (and mandatory) parameter to all methods 
+        is "self" i.e. a reference to the object instantiated from the class.
+        """
         print("\nCreating customer GUI ...")
 
         # Destroy whatever the current GUI is 
@@ -133,7 +137,11 @@ class MainGUI():
         pass
    
     def create_staff_gui(self):
-
+        """
+        Create the main menu linking to create staff gui.
+        The first (and mandatory) parameter to all methods 
+        is "self" i.e. a reference to the object instantiated from the class.
+        """
         print("\nCreating staff GUI ...")
 
         # Destroy whatever the current GUI is 
@@ -146,7 +154,11 @@ class MainGUI():
         pass
 
     def create_room_type_gui(self):
-
+        """
+        Create the main menu linking to create room type gui.
+        The first (and mandatory) parameter to all methods 
+        is "self" i.e. a reference to the object instantiated from the class.
+        """
         print("\nCreating room type GUI ...")
 
         # Destroy whatever the current GUI is 
@@ -159,7 +171,11 @@ class MainGUI():
         pass
 
     def create_room_gui(self):
-
+        """
+        Create the main menu linking to create room gui.
+        The first (and mandatory) parameter to all methods 
+        is "self" i.e. a reference to the object instantiated from the class.
+        """
         print("\nCreating room GUI ...")
 
         # Destroy whatever the current GUI is 
@@ -172,7 +188,11 @@ class MainGUI():
         pass
 
     def create_booking_gui(self):
-
+        """
+        Create the main menu linking to create booking gui.
+        The first (and mandatory) parameter to all methods 
+        is "self" i.e. a reference to the object instantiated from the class.
+        """
         print("\nCreating booking GUI ...")
 
         # Destroy whatever the current GUI is 

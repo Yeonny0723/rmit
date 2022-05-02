@@ -4,7 +4,13 @@
 from room_dao import RoomDAO
 
 def test_create():
-        
+    """
+    Test create method of RoomDAO
+
+    Parameters: None
+
+    Return: None
+    """        
     # 1. Instantiate the room DAO
     room_dao = RoomDAO()
 
@@ -25,7 +31,13 @@ def test_create():
 
 
 def test_find_by_id():
+    """
+    Test find_by_id method of RoomDAO
 
+    Parameters: None
+
+    Return: None
+    """     
     # 1. Instantiate the room DAO
     room_dao = RoomDAO()
 
@@ -42,7 +54,13 @@ def test_find_by_id():
 
 
 def test_find_all():
-   
+    """
+    Test find_all method of RoomDAO
+
+    Parameters: None
+
+    Return: None
+    """        
     # 1. Instantiate the room DAO
     room_dao = RoomDAO()
 
@@ -55,7 +73,13 @@ def test_find_all():
 
 
 def test_find_by_room_type():
-     
+    """
+    Test find_by_room_type method of RoomDAO
+
+    Parameters: None
+
+    Return: None
+    """          
     # 1. Instantiate the room DAO
     room_dao = RoomDAO()
      
@@ -72,7 +96,13 @@ def test_find_by_room_type():
 
 
 def test_find_ids():
+    """
+    Test find_ids method of RoomDAO
 
+    Parameters: None
+
+    Return: None
+    """     
     # 1. Instantiate the room DAO
     room_dao = RoomDAO()
 
@@ -84,7 +114,13 @@ def test_find_ids():
 
 
 def test_update():
+    """
+    Test update method of RoomDAO
 
+    Parameters: None
+
+    Return: None
+    """     
     # 1. Instantiate the room DAO
     room_dao = RoomDAO()
 
@@ -105,7 +141,13 @@ def test_update():
 
 
 def test_delete():
+    """
+    Test delete method of RoomDAO
 
+    Parameters: None
+
+    Return: None
+    """     
     # 1. Instantiate the room DAO
     room_dao = RoomDAO()
 

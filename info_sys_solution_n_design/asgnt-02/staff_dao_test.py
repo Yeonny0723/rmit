@@ -4,7 +4,13 @@
 from staff_dao import StaffDAO
 
 def test_create():
-        
+    """
+    Test create method of StaffDAO
+
+    Parameters: None
+
+    Return: None
+    """             
     # 1. Instantiate the staff DAO
     staff_dao = StaffDAO()
 
@@ -26,7 +32,13 @@ def test_create():
 
 
 def test_find_by_id():
+    """
+    Test find_by_id method of StaffDAO
 
+    Parameters: None
+
+    Return: None
+    """ 
     # 1. Instantiate the staff DAO
     staff_dao = StaffDAO()
 
@@ -43,7 +55,13 @@ def test_find_by_id():
    
 
 def test_find_all():
-   
+    """
+    Test find_all method of StaffDAO
+
+    Parameters: None
+
+    Return: None
+    """    
     # 1. Instantiate the staff DAO
     staff_dao = StaffDAO()
 
@@ -56,7 +74,13 @@ def test_find_all():
 
  
 def test_find_by_lastname():
-     
+    """
+    Test find_by_lastname method of StaffDAO
+
+    Parameters: None
+
+    Return: None
+    """      
     # 1. Instantiate the staff DAO
     staff_dao = StaffDAO()
      
@@ -73,7 +97,13 @@ def test_find_by_lastname():
 
 
 def test_find_ids():
+    """
+    Test find_ids method of StaffDAO
 
+    Parameters: None
+
+    Return: None
+    """ 
     # 1. Instantiate the staff DAO
     staff_dao = StaffDAO()
 
@@ -85,7 +115,13 @@ def test_find_ids():
 
 
 def test_update():
+    """
+    Test update method of StaffDAO
 
+    Parameters: None
+
+    Return: None
+    """ 
     # 1. Instantiate the staff DAO
     staff_dao = StaffDAO()
 
@@ -105,7 +141,13 @@ def test_update():
 
 
 def test_delete():
+    """
+    Test delete method of StaffDAO
 
+    Parameters: None
+
+    Return: None
+    """ 
     # 1. Instantiate the staff DAO
     staff_dao = StaffDAO()
 
