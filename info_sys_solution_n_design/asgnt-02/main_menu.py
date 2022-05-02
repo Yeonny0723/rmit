@@ -67,39 +67,36 @@ class MainGUI():
         # Customer menu
         # do not use self.create_customer_gui()
         # Will be executed automatically!
-        # customer
-        filemenu = tk.Menu(menubar, tearoff=0)
-        filemenu.add_command(label="Customer", command=self.create_customer_gui)
-        menubar.add_cascade(label="Customer", menu=filemenu)
 
-        # Staff
-        filemenu = tk.Menu(menubar, tearoff=0)
-        filemenu.add_command(label="Staff", command=self.create_staff_gui)
-        menubar.add_cascade(label="Staff", menu=filemenu)
+        # # If you are using MacOS Monterey, be sure to uncomment the code below. 
+        # # customer
+        # filemenu = tk.Menu(menubar, tearoff=0)
+        # filemenu.add_command(label="Customer", command=self.create_customer_gui)
+        # menubar.add_cascade(label="Customer", menu=filemenu)
+        # # Staff
+        # filemenu = tk.Menu(menubar, tearoff=0)
+        # filemenu.add_command(label="Staff", command=self.create_staff_gui)
+        # menubar.add_cascade(label="Staff", menu=filemenu)
+        # # menubar.add_cascade(label="Staff", command=self.create_staff_gui)
+        # # Room Type
+        # filemenu = tk.Menu(menubar, tearoff=0)
+        # filemenu.add_command(label="Room Type", command=self.create_room_type_gui)
+        # menubar.add_cascade(label="Room Type", menu=filemenu)
+        # # Room 
+        # filemenu = tk.Menu(menubar, tearoff=0)
+        # filemenu.add_command(label="Room", command=self.create_room_gui)
+        # menubar.add_cascade(label="Room", menu=filemenu)
+        # # Booking
+        # filemenu = tk.Menu(menubar, tearoff=0)
+        # filemenu.add_command(label="Booking", command=self.create_booking_gui)
+        # menubar.add_cascade(label="Booking", menu=filemenu)
 
-        # menubar.add_cascade(label="Staff", command=self.create_staff_gui)
-
-        # Room Type
-        filemenu = tk.Menu(menubar, tearoff=0)
-        filemenu.add_command(label="Room Type", command=self.create_room_type_gui)
-        menubar.add_cascade(label="Room Type", menu=filemenu)
-
-        # Room 
-        filemenu = tk.Menu(menubar, tearoff=0)
-        filemenu.add_command(label="Room", command=self.create_room_gui)
-        menubar.add_cascade(label="Room", menu=filemenu)
-
-        # Booking
-        filemenu = tk.Menu(menubar, tearoff=0)
-        filemenu.add_command(label="Booking", command=self.create_booking_gui)
-        menubar.add_cascade(label="Booking", menu=filemenu)
-
-
-        # menubar.add_command(label="Customer", command=self.create_customer_gui)
-        # menubar.add_command(label="Staff", command=self.create_staff_gui)
-        # menubar.add_command(label="Room Type", command=self.create_room_type_gui)
-        # menubar.add_command(label="Room", command=self.create_room_gui)
-        # menubar.add_command(label="Booking", command=self.create_booking_gui)
+        # If you are using os other than MacOS Monterey, be sure to uncomment the code below. 
+        menubar.add_command(label="Customer", command=self.create_customer_gui)
+        menubar.add_command(label="Staff", command=self.create_staff_gui)
+        menubar.add_command(label="Room Type", command=self.create_room_type_gui)
+        menubar.add_command(label="Room", command=self.create_room_gui)
+        menubar.add_command(label="Booking", command=self.create_booking_gui)
 
 
         # Display the menu
