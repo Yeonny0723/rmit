@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/simplecartjs/simpleCart.js"></script>
+    <script src="js/simplecartjs-config.js"></script>
+
+    <title>Shopping Cart Contents</title>
+</head>
+<body>
+    <h1>View Cart (<span class="simpleCart_quantity"></span> items)</h1>
+
+    <div>
+        <p>
+            <a href="index.html" class="button">Home</a>
+            <a href="cart.html" class="button">View Cart (<span class="simpleCart_quantity"></span> items)</a>
+        </p>
+    </div>
+
+    <!-- Display all items in shopping cart -->
+    <div class="simpleCart_items"></div>
+
+    <!-- Display Totals Table -->
+    <table class="costs" border=0 cellspacing=0>
+
+        <!-- Display sub-total -->
+        <tr class="costs">
+            <td class="costs">Sub-Total</td>
+            <td class="costs"><div class="simpleCart_total"></div></td>
+        </tr>
+
+        <!-- Display tax cost and tax rate -->
+        <tr class="costs">
+            <td class="costs">GST (<span class="simpleCart_taxRate"></span>%)</td>
+            <td class="costs"><span class="simpleCart_tax"></span></td>
+        </tr>
+
+        <!-- Display shipping cost -->
+        <tr class="costs">
+            <td class="costs">Delivery fee</td>
+            <td class="costs"><span class="simpleCart_shipping"></span></td>
+        </tr>
+
+        <!-- Display grand total, including tax and shipping -->
+        <tr class="costs total">
+            <th class="costs">Total (inc. GST)</th>
+            <th class="costs"><span class="simpleCart_grandTotal"></span></th>
+        </tr>
+    </table>
+
+    <div align="right">
+        <!-- Checkout -->
+        <p><a href="checkout.html" class="button">Checkout</a></p>
+        
+        <!-- Empty the cart -->
+        <p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
+    </div>
+</body>
+</html>

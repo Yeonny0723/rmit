@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scotch Whisky Online</title>
+    <!-- JavaScript shopping cart -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/simplecartjs/simpleCart.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/simplecartjs-config.js"></script>
+
+</head>
+<body>
+    <h1>Scotch Whisky Online</h1>
+    <div>
+        <p>
+            <a href="index.html" class="button">Home</a>
+            <a href="cart.html" class="button">View Cart (<span class="simpleCart_quantity"></span> items)</a>
+        </p>
+   </div>
+    <div class="section">
+        <div class="product">
+            <div class="simpleCart_shelfItem">
+                <img class="item_image product_image" src="images/ardbeg-uigeadail.png" alt="Argbeg Uigeadail" />
+                <h2 class="item_name">Argbeg Uigeadail</h2>
+                <p>
+                    <span class="item_price">$139.99</span><br />
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">+</span>
+                        <input type="text" class="form-control item_Quantity" value="1">
+                        <span class="input-group-text">-</span>
+                    </div>
+                    <p><a class="item_add" href="javascript:;">Add to Cart</a></p> 
+                </p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="simpleCart_shelfItem">
+                <img class="item_image product_image" src="images/lagavulin-16yo.jpeg" alt="Lagavulin 16 Year Old" />
+                <h2 class="item_name">Lagavulin 16 Year Old</h2>
+                <p>
+                    <span class="item_price">$114.99</span><br />
+                    <input type="text" value="1" class="item_Quantity"/><br />
+                    <p><a class="item_add" href="javascript:;">Add to Cart</a></p>   
+                </p>
+            </div>            
+        </div>
+        <div class="product">
+            <div class="simpleCart_shelfItem">
+                <img class="item_image product_image" src="images/laphroaig-10yo.jpeg" alt="Laphroaig 10 Year Old" />
+                <h2 class="item_name">Laphroaig 10 Year Old</h2>
+                <p>
+                    <span class="item_price">$94.99</span><br />
+                    <select class="item_size">
+                        <option value="700ml">700ml</option>
+                        <option value="1L">1L</option>
+                    </select>
+                    <input type="text" value="1" class="item_Quantity" /><br />
+                    <p><a class="item_add" href="javascript:;">Add to Cart</a></p>
+                </p>
+            </div>            
+        </div>        
+    </div>
+</body>
+</html>
