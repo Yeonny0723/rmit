@@ -1,4 +1,5 @@
 AHS Hotel booking system
+- This is a source code for AHS Hotel booking system.
 - To find out detailed system documentation, please refer to ___
 
 A. Libraries
