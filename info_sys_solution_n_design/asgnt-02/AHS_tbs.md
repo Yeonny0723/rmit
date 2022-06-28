@@ -1,6 +1,6 @@
 AHS Hotel booking system
 - This is a source code for AHS Hotel booking system.
-- To find out detailed system documentation, please refer to [System documentation](https://github.com/Yeonny0723/rmit/blob/main/info_sys_solution_n_design/asgnt-02/AHS_sys_doc_s3741327.pdf).
+- To find out how to run the program, please refer to our [System documentation](https://github.com/Yeonny0723/rmit/blob/main/info_sys_solution_n_design/asgnt-02/AHS_sys_doc_s3741327.pdf).
 
 A. Libraries
 - Python tkinter was used. 
